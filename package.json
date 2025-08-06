@@ -1,0 +1,36 @@
+{
+  "name": "mathvideo",
+  "version": "1.2.6",
+  "description": "Convert strings to mathematical videos using Groq API and Manim",
+  "main": "index.js",
+  "bin": {
+    "mathvideo": "./bin/mathvideo.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "math",
+    "manim",
+    "groq",
+    "llm",
+    "animation"
+  ],
+  "author": "MathVideo Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^8.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mathvideo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mathvideo/issues"
+  },
+  "homepage": "https://github.com/yourusername/mathvideo#readme"
+}
